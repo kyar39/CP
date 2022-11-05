@@ -18,7 +18,7 @@ from opencage.geocoder import OpenCageGeocode
 key = 'a9c5b28b233c43f8bd91a9030e67498d'
 
 geocoder = OpenCageGeocode(key)
-query str(location)
+query = str(location)
 results = geocoder.geocode(query)
 #print(results)
 
